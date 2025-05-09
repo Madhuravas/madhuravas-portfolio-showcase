@@ -17,7 +17,7 @@ const AboutSection = () => {
               <div className="w-full aspect-square bg-gradient-purple rounded-2xl overflow-hidden p-1 rotate-3">
                 <div className="w-full h-full rounded-xl overflow-hidden bg-gradient-dark">
                   <img 
-                    src={`/lovable-uploads/82493ad4-cf0d-4ccb-a82c-c18fe58347ed.png`} 
+                    src={`/lovable-uploads/742d1e65-9865-449e-a302-5367a4ef0560.png`} 
                     alt="Madhuravas Reddy" 
                     className="w-full h-full object-cover"
                   />
