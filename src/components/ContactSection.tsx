@@ -16,21 +16,21 @@ const contactMethods = [
   },
   {
     name: "Phone",
-    value: "+91 9876543210",
+    value: "+91 8341175001",
     icon: Phone,
-    href: "tel:+919876543210",
+    href: "tel:+918341175001",
   },
   {
     name: "LinkedIn",
     value: "madhuravas-reddy",
     icon: Linkedin,
-    href: "https://linkedin.com/in/madhuravas-reddy",
+    href: "https://www.linkedin.com/in/madhuravas-reddy-8a4b0b230/",
   },
   {
     name: "GitHub",
-    value: "madhuravas",
+    value: "Madhuravas",
     icon: Github,
-    href: "https://github.com/madhuravas",
+    href: "https://github.com/Madhuravas",
   },
 ];
 

@@ -16,16 +16,16 @@ const Footer = () => {
           </div>
           
           <div className="flex gap-6 mb-8">
-            <a href="#" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
+            <a href="https://github.com/Madhuravas" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
               <Github size={20} />
             </a>
-            <a href="#" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
+            <a href="https://www.linkedin.com/in/madhuravas-reddy-8a4b0b230/" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
               <Linkedin size={20} />
             </a>
             <a href="#" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
               <Instagram size={20} />
             </a>
-            <a href="#" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
+            <a href="mailto:madhuravas@example.com" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
               <Mail size={20} />
             </a>
           </div>

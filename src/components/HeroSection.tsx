@@ -61,13 +61,13 @@ const HeroSection = () => {
             </div>
             
             <div className="flex gap-5 mt-8">
-              <a href="#" className="text-muted-foreground hover:text-purple-light transition-colors">
+              <a href="https://github.com/Madhuravas" className="text-muted-foreground hover:text-purple-light transition-colors">
                 <Github size={20} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-purple-light transition-colors">
+              <a href="https://www.linkedin.com/in/madhuravas-reddy-8a4b0b230/" className="text-muted-foreground hover:text-purple-light transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-purple-light transition-colors">
+              <a href="mailto:madhuravas@example.com" className="text-muted-foreground hover:text-purple-light transition-colors">
                 <Mail size={20} />
               </a>
             </div>
