@@ -24,7 +24,7 @@ const TechLogos = () => {
           }}
         >
           <img 
-            src={`/lovable-uploads/82493ad4-cf0d-4ccb-a82c-c18fe58347ed.png`} 
+            src={`/lovable-uploads/742d1e65-9865-449e-a302-5367a4ef0560.png`} 
             alt="Profile placeholder"
             className="h-8 w-8 rounded-full object-cover opacity-40"
           />
@@ -78,7 +78,7 @@ const HeroSection = () => {
               <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-purple rounded-full overflow-hidden p-1">
                 <div className="w-full h-full rounded-full overflow-hidden bg-gradient-dark p-1">
                   <img 
-                    src={`/lovable-uploads/82493ad4-cf0d-4ccb-a82c-c18fe58347ed.png`} 
+                    src={`/lovable-uploads/742d1e65-9865-449e-a302-5367a4ef0560.png`} 
                     alt="Madhuravas Reddy" 
                     className="w-full h-full rounded-full object-cover"
                   />
