@@ -17,7 +17,7 @@ const AboutSection = () => {
               <div className="w-full aspect-square bg-gradient-purple rounded-2xl overflow-hidden p-1 rotate-3">
                 <div className="w-full h-full rounded-xl overflow-hidden bg-gradient-dark">
                   <img 
-                    src={`/lovable-uploads/742d1e65-9865-449e-a302-5367a4ef0560.png`} 
+                    src={`/lovable-uploads/myHambi.jpg`} 
                     alt="Madhuravas Reddy" 
                     className="w-full h-full object-cover"
                   />
@@ -28,7 +28,7 @@ const AboutSection = () => {
           
           <div className="w-full md:w-7/12 animate-fade-up" style={{ animationDelay: "0.4s" }}>
             <p className="text-lg mb-6">
-              I am a <span className="text-purple-light font-medium">MERN Stack Developer</span> with 2.9 years of experience in building fast and scalable web applications. I work with MongoDB, Express.js, React.js, and Node.js to create user-friendly frontends and powerful backends.
+              I am a <span className="text-purple-light font-medium">MERN Stack Developer</span> with 3+ years of experience in building fast and scalable web applications. I work with MongoDB, Express.js, React.js, and Node.js to create user-friendly frontends and powerful backends.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">

@@ -86,7 +86,7 @@ const HeroSection = () => {
               </div>
               <div className="absolute bottom-5 right-0 bg-secondary border border-border p-4 rounded-lg backdrop-blur-sm animate-pulse-slow">
                 <p className="text-sm font-medium gradient-text">MERN Stack Developer</p>
-                <p className="text-xs text-muted-foreground">2.9 years experience</p>
+                <p className="text-xs text-muted-foreground">3+ years experience</p>
               </div>
             </div>
           </div>

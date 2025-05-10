@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/hooks/use-toast';
+import emailjs from 'emailjs-com';
 
 const contactMethods = [
   {
@@ -53,14 +54,21 @@ const ContactSection = () => {
     setIsSubmitting(true);
     
     // Simulate form submission
-    setTimeout(() => {
+    emailjs.send(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, formData, import.meta.env.VITE_PUBLIC_KEY)
+    .then(() => {
       toast({
         title: "Message sent!",
         description: "Thanks for reaching out. I'll get back to you soon.",
       });
       setFormData({ name: '', email: '', message: '' });
+    })
+    .catch((error) => {
+      console.error('EmailJS Error:', error);
+      alert('Failed to send message. Please try again later.');
+    })
+    .finally(() => {
       setIsSubmitting(false);
-    }, 1000);
+    });
   };
 
   return (
@@ -93,6 +101,7 @@ const ContactSection = () => {
                       <h4 className="font-semibold">{method.name}</h4>
                       <a 
                         href={method.href} 
+                        target="_blank"
                         className="text-sm text-muted-foreground hover:text-purple-light"
                       >
                         {method.value}
