@@ -14,20 +14,20 @@ const projects = [
   {
     title: "Compass Admin",
     description: "ReactJS admin dashboard for secure credential management with Keycloak-based authentication and a responsive UI for streamlined data entry and role-based access control.",
-    technologies: ["React", "Redux", "Keycloak", "Tailwind CSS", "Node.js"],
+    technologies: ["React", "Redux", "Keycloak", "Tailwind CSS", "DaisyUI"],
     image: "/lovable-uploads/compass-portal.png",
   },
   {
     title: "DevTinder",
     description: "MERN stack app for developer networking, with real-time chat, profile matching, and project collaboration features deployed on AWS.",
-    technologies: ["MongoDB", "Express", "React", "Node.js", "Socket.io", "AWS"],
+    technologies: ["MongoDB", "Express", "React", "Node.js", "Mongoose", "JWT", "AWS"],
     image: "/lovable-uploads/devTinder-portal.png",
     github: "https://github.com/Madhuravas/devTinder"
   },
   {
     title: "REST Countries Explorer",
     description: "Frontend Mentor challenge solution using REST Countries API. Includes filtering by region, dark mode toggle, and country detail pages.",
-    technologies: ["React", "TypeScript", "REST API", "Styled Components", "Vite"],
+    technologies: ["React", "JavaScript", "REST API", "Styled Components"],
     image: "/lovable-uploads/rest-countries.png", // Make sure this image exists
     github: "https://github.com/Madhuravas/rest-countries",
     demo: "https://rest-countries-yvgq.vercel.app/",
@@ -61,7 +61,7 @@ const ProjectsSection = () => {
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="text-muted-foreground mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-6">
-                  {project.technologies.slice(0, 4).map((tech, i) => (
+                  {project.technologies.map((tech, i) => (
                     <Badge
                       key={i}
                       variant="outline"
@@ -70,11 +70,6 @@ const ProjectsSection = () => {
                       {tech}
                     </Badge>
                   ))}
-                  {project.technologies.length > 4 && (
-                    <Badge variant="outline" className="bg-background/50">
-                      +{project.technologies.length - 4}
-                    </Badge>
-                  )}
                 </div>
                 <div className="flex gap-3">
                   {project.github && <Button size="sm" variant="outline" className="flex items-center gap-2" asChild>

@@ -11,9 +11,9 @@ import emailjs from 'emailjs-com';
 const contactMethods = [
   {
     name: "Email",
-    value: "madhuravas@example.com",
+    value: "madhuravasreddy1998@gmail.com",
     icon: Mail,
-    href: "mailto:madhuravas@example.com",
+    href: "mailto:madhuravasreddy1998@gmail.com",
   },
   {
     name: "Phone",

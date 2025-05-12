@@ -25,7 +25,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/madhu__1116__/" target="_blank" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
               <Instagram size={20} />
             </a>
-            <a href="mailto:madhuravas@example.com" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
+            <a href="mailto:madhuravasreddy1998@gmail.com" className="p-2 rounded-full bg-secondary hover:bg-purple-dark transition-colors">
               <Mail size={20} />
             </a>
           </div>

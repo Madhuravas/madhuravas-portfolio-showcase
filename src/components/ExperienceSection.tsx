@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/card';
 const experiences = [
   {
     role: "Full Stack Developer",
-    company: "MOSIP – IIITB",
+    company: "MOSIP",
     period: "01/2024 – Present",
     location: "Bengaluru, Karnataka",
     description: [
