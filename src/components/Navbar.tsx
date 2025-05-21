@@ -33,8 +33,8 @@ const Navbar = () => {
   return (
     <nav
       className={`fixed w-full z-50 transition-all duration-300 ${scrolled
-          ? 'bg-background/80 backdrop-blur-lg border-b border-border py-3'
-          : 'py-5'
+        ? 'bg-background/80 backdrop-blur-lg border-b border-border py-3'
+        : 'py-5'
         }`}
     >
       <div className="container flex items-center justify-between">
@@ -85,7 +85,9 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <Button className="bg-gradient-purple hover:opacity-90">Contact Me</Button>
+              <a href={`assets/madhuravas.pdf`} download="madhuravas.pdf">
+                <Button className="bg-gradient-purple hover:opacity-90">Resume</Button>
+              </a>
             </div>
           </div>
         )}
